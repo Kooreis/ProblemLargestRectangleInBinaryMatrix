@@ -1,5 +1,4 @@
-function maxArea(matrix) {
-    if (matrix.length === 0) return 0;
-    let m = matrix.length;
-    let n = matrix[0].length;
-}
+let left = new Array(n).fill(0);
+    let right = new Array(n).fill(n);
+    let height = new Array(n).fill(0);
+    let maxA = 0;
